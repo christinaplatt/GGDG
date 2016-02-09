@@ -1,13 +1,15 @@
 .container {
-  background: url("images/winter2.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   margin: 0 auto;
   height: 500px;
   width: 900px;
   text-align: center; }
+
+.season-1 {
+  background: url("images/winter2.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 ul {
   list-style-type: decimal;
@@ -15,6 +17,13 @@ ul {
 
 li {
   padding: 10px; }
+
+.season-2 {
+  background: url("images/spring1.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 nav ul {
   margin: 60px;
