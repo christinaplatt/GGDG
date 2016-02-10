@@ -4,19 +4,29 @@
   width: 900px;
   text-align: center; }
 
-.season-1 {
-  background: url("images/winter2.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 ul {
   list-style-type: decimal;
   font-size: 30px; }
 
 li {
   padding: 10px; }
+
+nav ul {
+  margin: 60px;
+  text-align: center; }
+nav li {
+  display: inline;
+  margin: 10px; }
+nav a {
+  text-align: center;
+  text-decoration: none; }
+
+.season-1 {
+  background: url("images/winter2.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .season-2 {
   background: url("images/spring1.jpeg") no-repeat center center fixed;
@@ -32,15 +42,19 @@ li {
   -o-background-size: cover;
   background-size: cover; }
 
-nav ul {
-  margin: 60px;
-  text-align: center; }
-nav li {
-  display: inline;
-  margin: 10px; }
-nav a {
-  text-align: center;
-  text-decoration: none; }
+.season-4 {
+  background: url("images/fall2.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.season-5 {
+  background: url("images/winter.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 body {
   background-color: black;
