@@ -1,36 +1,31 @@
-.season-1{
-	background: url("images/winter2.jpeg") no-repeat center center fixed;
+@mixin background-size(){
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+.season-1{
+	background: url("images/winter2.jpeg") no-repeat center center fixed;
+	@include background-size();
 }
 .season-2{
 	background: url("images/spring1.jpeg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	@include background-size();
+
 }
 .season-3{
 	background: url("images/summer3.jpeg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	@include background-size();
+
 }
 .season-4{
 	background: url("images/fall2.jpeg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
+	@include background-size();
 }
+
+
 .season-5{
 	background: url("images/winter.jpeg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	@include background-size();
+
 }
