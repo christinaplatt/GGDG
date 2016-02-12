@@ -29,3 +29,12 @@
 	@include background-size();
 
 }
+
+.season-6{
+	background: url("images/spring2.jpeg") no-repeat center center fixed;
+	@include background-size();
+}
+.season-7{
+	background: url("images/summer4.jpg") no-repeat center center fixed;
+	@include background-size();
+}

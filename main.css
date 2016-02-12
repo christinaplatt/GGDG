@@ -56,6 +56,20 @@ nav a {
   -o-background-size: cover;
   background-size: cover; }
 
+.season-6 {
+  background: url("images/spring2.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.season-7 {
+  background: url("images/summer4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 body {
   background-color: black;
   text-align: center; }
