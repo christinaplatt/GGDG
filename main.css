@@ -20,6 +20,9 @@ nav li {
 nav a {
   text-align: center;
   text-decoration: none; }
+nav .gg {
+  height: 170px;
+  width: 170px; }
 
 .season-1 {
   background: url("images/winter2.jpeg") no-repeat center center fixed;
@@ -71,12 +74,12 @@ nav a {
   background-size: cover; }
 
 body {
-  background-color: black;
+  background-color: #c69;
   text-align: center; }
 
 h1 {
   font-size: 60px;
-  color: #383838;
+  color: yellow;
   font-family: georgia, serif; }
 
 /*# sourceMappingURL=main.css.map */

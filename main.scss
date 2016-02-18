@@ -2,19 +2,14 @@
 @import 'nav';
 @import 'season';
 
+
 body{
-	background-color: black;
+	background-color: #c69;
 	text-align: center;
 }
 
 h1{
 	font-size: 60px;
-	color: #383838;
+	color: yellow;
 	font-family: georgia, serif;
-}
-@mixin background-size($cover){
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
